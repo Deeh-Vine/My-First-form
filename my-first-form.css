@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: burlywood
+}
+
+#logo{
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+.menu_list{
+    float: right;
+    margin: 10px;
+    margin-top: 3px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.menu_list a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color:darkred;
+}
+
+#banner{
+    height: 600px;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+
+#form_div{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(247, 235, 221, 0.5);
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: rgb(87, 51, 5);
+    padding-top: 80px;
+}
+
+#form_div input{
+    height: 30px;
+    border: none;
+    border-bottom: chocolate 3px solid;
+    font-size: large;
+ 
+}
+
+#form_div label{
+    float: left;
+    margin-left: 30px;
+}
+
+#form_div #submit{
+    margin-top: 20px;
+    border: none;
+    background-color: khaki;
+    font-size: larger;
+    font-weight: 900;
+    margin-right: 30px;
+    float: right;
+    color: rgb(236, 117, 31);
+    width: 100px;
+}
